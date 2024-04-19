@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa; 
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #343a40; 
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6600; 
+}
+
+/* Banner */
+#banner {
+    background-color: #ff6600; 
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#banner h2 {
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Top 5 */
+#top5 {
+    padding: 50px 0;
+}
+
+#top5 ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+#top5 ol li {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Fale Conosco */
+#fale-conosco {
+    background-color: #495057;
+    color: #fff;
+    padding: 50px 0;
+}
+
+#fale-conosco h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Formulário */
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #ff6600;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #ff6600;
+    background-color: #fff;
+    color: #333; 
+    font-size: 16px; 
+}
+
+form button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #e55d00;
+}
+
+
+img {
+    max-width: 30%; 
+    height: auto;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.cart-icon {
+    margin-right: 10px;
+}
+
+.cart-price {
+    font-weight: bold;
+    color: #ff6600;
+}
+
+
+.cart-icon img {
+    width: 60px;
+    height: auto;
+}
+
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    #banner h2 {
+        font-size: 36px;
+    }
+
+    .genero h3 {
+        font-size: 20px;
+    }
+
+    #top5 ol li {
+        font-size: 18px;
+    }
+
+    form label {
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+
+    .slide {
+        width: 100%;
+    }
+
+    img {
+        max-width: 100%; 
+    }
+
+    header {
+        padding: 10px 0; 
+    }
+
+    header h1 {
+        font-size: 24px; 
+        margin-bottom: 10px; 
+    }
+
+    nav ul li {
+        margin-right: 10px; 
+    }
+
+    nav ul li a {
+        font-size: 14px; 
+    }
+
+    #banner h2 {
+        font-size: 28px; 
+    }
+
+    .genero h3 {
+        font-size: 18px; 
+    }
+
+    form label {
+        font-size: 14px; 
+    }
+
+    form input,
+    form textarea {
+        font-size: 14px; 
+    }
+
+    form button {
+        padding: 12px 24px; 
+    }
+}

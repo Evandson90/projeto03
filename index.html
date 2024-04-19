@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de Mangás</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1>Mangá Box</h1>
+                <div class="cart">
+                    <a href="#" class="cart-icon"><img src="carrinho.png" alt="Carrinho de Compras"></a>
+                    <span class="cart-price">$00.00</span>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#generos">Gêneros</a></li>
+                    <li><a href="#top5">Top 5 Mais Vendidos</a></li>
+                    <li><a href="#fale-conosco">Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="banner">
+        <div class="container">
+            <h2>Encontre os melhores mangás aqui!</h2>
+            <p>Grandes títulos esperam por você.</p>
+        </div>
+    </section>
+    <section id="lancamentos-top5">
+        <div class="container">
+            <div class="row"></div>
+            <h2>Lançamentos da Semana</h2>
+            <div class="col-md-6"></div>
+            <div id="carousel-lancamentos" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="manga1.jpg" class="d-block w-100" alt="Mangá 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="manga2.jpg" class="d-block w-100" alt="Mangá 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="manga3.jpg" class="d-block w-100" alt="Mangá 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel-lancamentos" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-lancamentos" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="top5">
+        <div class="container">
+            <h2>Top 5 Mais Vendidos do mês</h2>
+            <div id="carousel-top5" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="top1.jpg" class="d-block w-100" alt="Título do Mangá 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="top2.jpg" class="d-block w-100" alt="Título do Mangá 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="top3.jpg" class="d-block w-100" alt="Título do Mangá 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="top4.jpg" class="d-block w-100" alt="Título do Mangá 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="top5.jpg" class="d-block w-100" alt="Título do Mangá 5">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel-top5" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-top5" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+        </div>
+    </section>
+    <section id="fale-conosco">
+        <div class="container">
+            <h2>Fale Conosco</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="contato-info">
+                <address>
+                    Endereço da Loja<br>
+                    Rua Exemplo, 123<br>
+                    Cidade, Estado<br>
+                    CEP: 12345-678
+                </address>
+                <div class="redes-sociais">
+                    <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="X.png" alt="X"></a>
+                    <a href="#"><img src="instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mangá Box</p>
+        </div>
+    </footer>
+    <script src="JAVA.js"></script>
+</body>
+</html>
+
